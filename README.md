@@ -22,7 +22,7 @@ Results:
 
 ```
 Tests in error: 
-  shouldReturn200(org.example.CustomerControllerTest): org.yaml.snakeyaml.LoaderOptions.setMaxAliasesForCollections(I)V
+  shouldReturn200(org.example.ControllerTest): org.yaml.snakeyaml.LoaderOptions.setMaxAliasesForCollections(I)V
 
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
 ```
