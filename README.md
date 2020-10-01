@@ -42,7 +42,7 @@ Results:
 >                 <version>2.3.4.RELEASE</version>
 ```
 
-Inspect the class path for 2.3.4:
+Inspect the test class path for 2.3.4:
 
 ```
 ./mvnw -f pom-2.3.4.xml clean dependency:build-classpath -DincludeScope=test | grep -o 'org/yaml/snakeyaml[^:]*'
